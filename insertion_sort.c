@@ -20,7 +20,7 @@ int main()
         key = arr[i];
         j = i - 1;
 
-        // বড় element গুলো এক ঘর পিছাবে
+       
         while(j >= 0 && arr[j] > key)
         {
             arr[j + 1] = arr[j];
